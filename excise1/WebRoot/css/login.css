@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {
+    background-image:url(../images/bg.png);
+    font-size: 14px;
+}
+
+#btLogin{
+    width: 280px;
+    height: 35px;
+    background-color: rgb(19, 19, 206);
+    color: #fff;
+    font-weight: bold;
+}
+
+#userName,
+#password,
+#vcode{
+    height: 30px;
+    border: 1px solid #ccc;
+    text-indent: 24px;
+}
+
+#userName{
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+#password{
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+#vcode{
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+#loginForm{
+    width: 380px;
+    height: 230px;
+    background-color: beige;
+    margin: 200px auto;
+    padding-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+#loginForm p{
+    text-indent: 45px;
+}
+
+#verifyCode {
+    border: 0;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}

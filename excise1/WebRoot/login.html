@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div id="loginForm">
+        <form action="login.do" method="POST">
+            <p><input type="text" id="userName" name="userName" placeholder="用户名"></p>
+            <p><input type="password" id="password" name="password" placeholder="密码"></p>
+            <p><input type="text" id="vcode" name="vcode" placeholder="验证码">
+                <img src="servlet/CreateVerifyCodeImage" onclick="changeImg()" id="verifyCode" title="看不清，换一张">
+            </p>
+            <p style="color: #ffffff"><input type="checkbox" checked="checked" name="checkBox"/>一周内免登录</p>
+            <p><input type="submit" id="btLogin" value="登&nbsp;&nbsp;录"></p>
+        </form>
+    </div>
+</body>
+</html>

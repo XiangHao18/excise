@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 12px Microsoft Yahei,tahoma,HELVETICA;
+    color: #333;
+    background-image: url(../images/bg.png);
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    font-style: normal;
+}
+
+.container{
+    widows: 750px;
+    margin: 0 auto;
+}
+
+.container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container ul li{
+    float: left;
+    background-color: snow;
+    border-bottom: 1px dashed #ccc;
+    padding: 0;
+    margin-top: 5px;
+}
+
+h1{
+    line-height: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.name{
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 5px;
+    color: #333;
+}
+
+.container ul .pic-txt{
+    width: 600px;
+    float: left;
+    margin: 2px 0;
+}
+
+.img-area{
+    float: left;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+txt-area{
+    padding: 5px;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.space{
+    margin-right:7px ;
+}
+
+.tit-sub{
+    margin-top: 5px;
+    display: block;
+    height: 15px;
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.stats{
+    width: 80px;
+    height: 15px;
+    background: url(../images/darkStar.png) no-repeat -80px 0px;
+    display: inline-block;
+}
+
+.stats span{
+    height: 15px;
+    background: url(../images/brightStar.png) no-repeat 0px 0px;
+    display: inline-block;
+}
+
+.dl-btn{
+    float: right;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+    background-color:tomato ;
+    color: #fafbfb;
+}
+
+.back{
+    text-align:right;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.back a:hover{
+    text-decoration: underline;
+    color: tomato;
+}

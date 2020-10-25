@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* 基本信息 */
+body{
+    font:12px Tahoma;
+    margin: 0px;
+    text-align: center;
+    background: url(../images/main.jpg);
+}
+
+a:link,
+a:visited{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* 页面层容器 */
+#container{
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+/* 页面头部 */
+#header{
+    background: url(../images/mainHead.png) no-repeat;
+}
+
+#rightTop{
+    float: right;
+}
+
+#rightTop span{
+    color: red;
+}
+
+#menu{
+    padding: 35px 20px 0 0
+}
+
+#menu ul{
+    float: right;
+    list-style: none;
+    margin: 0px;
+}
+
+#menu ul li{
+    float: left;
+    display: block;
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+#menu ul li a{
+    font-weight: bold;
+    color: #666;
+}
+
+#menu ul li a:hover{
+    color: red;
+}
+
+.menuDiv{
+    width: 1px;
+    height: 28px;
+    background: #999;
+}
+
+#banner{
+    background: url(../images/banner.jpg) 0 15px no-repeat;
+    width: 730px;
+    margin: auto;
+    height: 225px;
+    border-bottom: 5px solid #EFEFEF;
+    clear: both;
+}
